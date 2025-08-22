@@ -2454,7 +2454,12 @@
     </TextParser>
     <Characters>
       <CharacterFolder Name="Main">
-        <SubFolders />
+        <SubFolders>
+          <CharacterFolder Name="Character">
+            <SubFolders />
+            <Characters />
+          </CharacterFolder>
+        </SubFolders>
         <Characters>
           <Character>
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
@@ -2471,7 +2476,7 @@
             <MovementSpeed>4</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
-            <NormalView>1</NormalView>
+            <NormalView>3</NormalView>
             <Properties />
             <RealName>Roger</RealName>
             <ScriptName>cEgo</ScriptName>
@@ -4656,6 +4661,107 @@
               </Sprite>
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="Brown">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="1" Width="80" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mbrown29\Downloads\New Piskel\sprite_0.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>80</ImportHeight>
+                  <ImportWidth>80</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2" Width="80" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mbrown29\Downloads\New Piskel\sprite_1.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>80</ImportHeight>
+                  <ImportWidth>80</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="3" Width="80" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mbrown29\Downloads\New Piskel\sprite_2.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>80</ImportHeight>
+                  <ImportWidth>80</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="4" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\mbrown29\Downloads\New Piskel.gif</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>50</ImportHeight>
+                  <ImportWidth>25</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="5" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\mbrown29\Downloads\New Piskel.gif</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>50</ImportHeight>
+                  <ImportWidth>25</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>1</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="6" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\mbrown29\Downloads\New Piskel.gif</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>50</ImportHeight>
+                  <ImportWidth>25</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>2</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="10" Height="6" ColorDepth="32" Resolution="Real" AlphaChannel="False">
@@ -4679,7 +4785,103 @@
     </Sprites>
     <Views>
       <ViewFolder Name="Default">
-        <SubFolders />
+        <SubFolders>
+          <ViewFolder Name="Object">
+            <SubFolders />
+            <Views>
+              <View>
+                <ID>2</ID>
+                <Name>oClock</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>1</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>2</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>3</ID>
+                <Name>View3</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>4</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>5</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>4</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames />
+                  </Loop>
+                </Loops>
+              </View>
+            </Views>
+          </ViewFolder>
+        </SubFolders>
         <Views>
           <View>
             <ID>1</ID>
