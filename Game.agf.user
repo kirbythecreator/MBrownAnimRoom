@@ -21,7 +21,7 @@
   </Component>
   <WorkspaceState>
     <LastBuildConfiguration>Debug</LastBuildConfiguration>
-    <LastBuildGameFileName>DataFile=MBrownAnimRoom,Windows=MBrownAnimRoom,_Debug=MBrownAnimRoom,</LastBuildGameFileName>
+    <LastBuildGameFileName>DataFile=MBrownAnimRoom,Windows=MBrownAnimRoom,_Debug=MBrownAnimRoom,Web=MBrownAnimRoom,</LastBuildGameFileName>
     <RequiresRebuild>False</RequiresRebuild>
   </WorkspaceState>
 </AGSEditorUserData>

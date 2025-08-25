@@ -15,7 +15,7 @@
       <AudioIndexer>0</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
-      <BuildTargets>Windows</BuildTargets>
+      <BuildTargets xml:space="preserve">Windows, Web</BuildTargets>
       <ClipGUIControls>True</ClipGUIControls>
       <ColorDepth>TrueColor</ColorDepth>
       <CompressSpritesType>None</CompressSpritesType>
@@ -4854,7 +4854,7 @@
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>0</Image>
+                        <Image>4</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -4867,7 +4867,7 @@
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>0</Image>
+                        <Image>4</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>

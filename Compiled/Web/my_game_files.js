@@ -1,0 +1,1 @@
+var gamefiles = ['MBrownAnimRoom.ags', 'acsetup.cfg'];
